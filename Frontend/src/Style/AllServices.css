@@ -1,7 +1,21 @@
 .services-link 
 {
-    margin: 1rem;
-    padding: 1rem;
+   display: flex;
+   justify-content: space-between;
+}
+h1 
+{
+    text-align: center;
+    margin: 12px;
+}
+
+.card 
+{
+    height: 230px;
+    width: 400px;
+    background-color: #d6d3d3c7;
+    margin: 10px;
+    padding: 10px;
 }
 
 .services-link a 
@@ -12,5 +26,20 @@
 }
 .services-link a:hover
 {
-    background-color: rgb(114, 109, 109);
+    
+}
+
+.card a 
+{
+    text-decoration: underline;
+    color: blue;
+    position: relative;
+    top: 30px;
+    left: 220px;
+}
+
+.card h3 
+{
+    text-align: center;
+    padding: 10px;
 }

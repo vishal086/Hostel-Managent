@@ -1,7 +1,7 @@
 import React from "react";
 import "../Style/Gallery.css";
 
-// Sample images array (Replace with your actual image URLs)
+
 const images = [
   "https://via.placeholder.com/300x200?text=Hostel+Room",
   "https://via.placeholder.com/300x200?text=Mess+Hall",

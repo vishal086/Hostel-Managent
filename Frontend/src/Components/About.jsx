@@ -1,13 +1,13 @@
 import React from "react";
 import "../Style/About.css";
-
+import img from "../Images/mmm6.jpg"
 const About = () => {
   return (
     <div className="about-container">
       {/* Top Banner Image */}
       <div className="about-banner">
         <img
-          src="https://via.placeholder.com/1200x400?text=Hostel+Banner"
+          src={img}
           alt="Hostel Banner"
         />
       </div>
