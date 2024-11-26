@@ -1,0 +1,16 @@
+.footer
+{
+    background: linear-gradient(180deg,gray,white,gray,white);
+    margin-top: 55px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ 
+}
+
+.footer h3,h5,a,p
+{
+    color: black;
+    font-family: cursive;
+    text-decoration: none;
+}

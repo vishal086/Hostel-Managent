@@ -1,0 +1,19 @@
+.service-section
+{
+    margin: 10px;
+    text-align: center;
+    color: transparent;
+    font-family: cursive;
+    color: white;
+    font-size: 2.5rem;
+}
+
+.sevice-box
+{
+ 
+    width: 80vw;
+    margin: auto;
+    margin-bottom: 25px;
+    color: aliceblue;
+    
+}

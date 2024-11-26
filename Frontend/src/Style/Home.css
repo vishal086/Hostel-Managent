@@ -1,0 +1,196 @@
+body 
+{
+    background-color: #565663;
+}
+.home-main
+{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    /* background: url('../Images/1.png') no-repeat scroll; */
+    background: linear-gradient(180deg,gray,white,gray,white);
+
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 0 0 200px 200px;
+}
+.home-main h1
+{
+    margin: 0px 5px 0px 0px;
+    font: 400 6rem roboto;
+    color: transparent;
+    -webkit-text-stroke: 3px black;
+}
+
+.home-main p
+{
+    margin: 0px 15px 0px 0px;
+    text-align: right;
+    font: 400 1rem roboto;
+    color: white;
+}
+
+.home2 
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home2-text 
+{
+    font-family: cursive;
+    color: white;
+}
+
+.img
+{
+    width: 30%;
+    animation: imgUP 0.7s linear infinite alternate;
+    cursor: pointer;
+}
+
+@keyframes imgUP {
+    to 
+    {
+        transform:translateY(20px);
+    }
+}
+
+.home3 
+{
+    height: 350px;
+    width: 70%;
+    background: linear-gradient(180deg,gray,white,gray,white);
+    margin-top:5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 150px 150px 0;
+}
+
+.home2 h2 
+{
+    margin: auto;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: cursive;
+    width: 250px;
+    border-bottom: 2px solid white;
+    padding: 0px 0px 10px 0;
+    color: white;
+}
+
+.home3 h2 
+{
+    font-family: cursive;
+    border-bottom: 2px solid black;
+    padding: 0px 0px 5px 0;
+}
+
+.home3 p 
+{
+    margin: 0px 10px 0px 10px;
+    font-family: cursive;
+}
+
+.home4-main
+{
+   display: flex;
+   justify-content: flex-end;
+}
+.home4 
+{
+    
+    margin-top: 50px;
+    height: 350px;
+    width: 80%;
+    background: linear-gradient(180deg,gray,white,gray,white);
+
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    border-radius: 150px 0px 0px 150px;
+}
+
+.home4 > div
+{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home4 h1 
+{
+    font-family: cursive;
+    color: black;
+    border-bottom:3px solid rgb(0, 0, 0);
+    padding-bottom: 2px;
+}
+
+
+.icon 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.img1 
+{
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+    margin: 0px 15px 0px 15px;
+    box-shadow: 3px 3px 3px 3px;
+
+    background-image: url('../Images/CM-G.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+.img2 
+{
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+    margin: 0px 15px 0px 15px;
+    box-shadow: 3px 3px 3px 3px;
+    background-image: url('../Images/Chancellor.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+.img3 
+{
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+    margin: 0px 15px 0px 15px;
+    box-shadow: 3px 3px 3px 3px;
+    background-image: url('../Images/VC2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+.img4 
+{
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+    margin: 0px 15px 0px 15px;
+    box-shadow: 3px 3px 3px 3px;
+    background-image: url('../Images/ShriAshishPatel.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+.icon p 
+{
+    font:400 1rem cursive;
+}
