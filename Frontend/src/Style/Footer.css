@@ -1,11 +1,11 @@
 .footer
 {
-    background: linear-gradient(180deg,gray,white,gray,white);
-    margin-top: 55px;
+    background-color: #5453539e;
+     margin-top: 55px;
     display: flex;
     justify-content: space-around;
     align-items: center;
- 
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; 
 }
 
 .footer h3,h5,a,p

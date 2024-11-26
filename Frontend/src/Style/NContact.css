@@ -1,0 +1,59 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Contacts Container */
+  .contacts-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 1rem;
+    text-align: center;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contacts-container h1 {
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  /* Contacts List */
+  .contacts-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    padding: 1rem;
+  }
+  
+  /* Contact Card */
+  .contact-card {
+    background: #f1f1f1;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: left;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .contact-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .contact-card h3 {
+    color: #007bff;
+    margin: 0 0 0.5rem;
+  }
+  
+  .contact-card p {
+    margin: 0.2rem 0;
+  }
+  
+  .contact-card strong {
+    color:#333;
+}

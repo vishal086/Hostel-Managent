@@ -8,7 +8,7 @@ nav
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: linear-gradient(250deg,gray,white,gray,white);
+    background: #aba6a6;
 
     box-sizing: 26px,41px,12px,4px;
     padding: 1.5rem;

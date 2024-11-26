@@ -8,8 +8,8 @@ body
     height: 70vh;
     display: flex;
     flex-direction: column;
-    /* background: url('../Images/1.png') no-repeat scroll; */
-    background: linear-gradient(180deg,gray,white,gray,white);
+    background-color: #d6d3d3c7;
+    
 
     justify-content: center;
     align-items: flex-end;
@@ -28,7 +28,7 @@ body
     margin: 0px 15px 0px 0px;
     text-align: right;
     font: 400 1rem roboto;
-    color: white;
+    color: black;
 }
 
 .home2 
@@ -42,7 +42,7 @@ body
 .home2-text 
 {
     font-family: cursive;
-    color: white;
+    color: black;
 }
 
 .img
@@ -63,7 +63,7 @@ body
 {
     height: 350px;
     width: 70%;
-    background: linear-gradient(180deg,gray,white,gray,white);
+    background-color: #d6d3d3c7;
     margin-top:5px;
     display: flex;
     flex-direction: column;
@@ -79,9 +79,9 @@ body
     text-align: center;
     font-family: cursive;
     width: 250px;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid rgb(0, 0, 0);
     padding: 0px 0px 10px 0;
-    color: white;
+    color: black;
 }
 
 .home3 h2 
@@ -108,7 +108,7 @@ body
     margin-top: 50px;
     height: 350px;
     width: 80%;
-    background: linear-gradient(180deg,gray,white,gray,white);
+    background:#d6d3d3c7;
 
     display: flex;
     flex-direction: column;

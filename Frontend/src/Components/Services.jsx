@@ -56,6 +56,8 @@ function Services() {
        <p className='sevice-box'>
         The website is designed to streamline the process of registering and addressing hostel complaints. Students can easily file complaints related to issues like fans, bathrooms, and other hostel amenities. Once a complaint is submitted, it is directly forwarded to the hostel warden for prompt action. This system enhances communication between students and the warden, ensuring that problems are addressed more efficiently. By providing a direct channel for reporting issues, the website aims to improve the overall living experience in the hostel, making it more comfortable and responsive to students' needs.
         </p>
+
+        
         </div>
      </>
   )
