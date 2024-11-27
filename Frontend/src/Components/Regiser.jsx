@@ -38,7 +38,7 @@ const Register = () => {
     }
 
     try {
-      const response = await axios.post("http://localhost:8000", formData);
+      const response = await axios.post("https://hostel-managent-backend.onrender.com", formData);
       toast.success("User Register Successfully");
       localStorage.setItem("Messenger", JSON.stringify(response.data));
       navigate('/home')

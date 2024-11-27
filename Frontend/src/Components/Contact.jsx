@@ -26,7 +26,7 @@ function Contact() {
      e.preventDefault();
     try {
       setLoading(true)
-      const res = await axios.post('http://localhost:8000/contact', data);
+      const res = await axios.post('https://hostel-managent-backend.onrender.com/contact', data);
         toast.success("Message Submitted Successfully");
         navigate('/')
         

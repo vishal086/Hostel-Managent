@@ -36,7 +36,7 @@ const Login = () => {
 
     try {
       // Make sure to set withCredentials to true for cookies
-      const response = await axios.post("http://localhost:8000/login", formData, {
+      const response = await axios.post("https://hostel-managent-backend.onrender.com/login", formData, {
         withCredentials: true,
       });
       localStorage.setItem("Messenger", JSON.stringify(response.data));
