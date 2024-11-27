@@ -43,7 +43,7 @@ function Contact() {
      setLoading(true);
       e.preventDefault()
     try {
-      const res = await axios.post('https://hostel-managent-backend.onrender.com/complaint',data)
+      const res = await axios.post('http://localhost:8000/complaint',data)
       toast.success('Complaint Submitted successfully!');
       navigate('/')
     } catch(err) {
