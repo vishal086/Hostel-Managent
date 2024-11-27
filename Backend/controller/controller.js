@@ -62,7 +62,7 @@ const registerStudent = async (req, res) => {
 
 
 
-const JWT_SECRET = 'your-secret-key'; 
+const JWT_SECRET = process.env.JWT_SECRET; 
 const loginStudent = async (req, res) => {
   const { email, password } = req.body;
 
