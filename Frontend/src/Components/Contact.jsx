@@ -28,11 +28,11 @@ function Contact() {
       setLoading(true)
       const res = await axios.post('http://localhost:8000/contact', data);
         toast.success("Message Submitted Successfully");
-        navigate('/')
+        navigate('/home')
         
     } catch (error) { 
       toast.error('Try After Sometime');
-      navigate('/')
+      navigate('/home')
     }
     finally {
       setLoading(false)

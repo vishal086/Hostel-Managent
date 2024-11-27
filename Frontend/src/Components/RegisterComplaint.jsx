@@ -45,10 +45,10 @@ function Contact() {
     try {
       const res = await axios.post('http://localhost:8000/complaint',data)
       toast.success('Complaint Submitted successfully!');
-      navigate('/')
+      navigate('/home')
     } catch(err) {
       toast.error('Failed to submit complaint. Please try again.'); 
-      navigate('/')
+      navigate('/home')
     } 
     finally{
       setLoading(false);
