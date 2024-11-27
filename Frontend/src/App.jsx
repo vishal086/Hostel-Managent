@@ -20,15 +20,14 @@ import AllServecies from "./Components/AllServecies";
 import ContactDetails from "./Components/ContactDetails";
 import Mess from "./Components/Mess";
 import FeePayment from "./Components/Rooms";
-import Gallery from "./Components/Gellery";
+import Gallery from "./Components/Gallery";
 function App() {
   const [item, setItem] = useState(null);
 
   useEffect(() => {
-    // Get item from localStorage
     const storedItem = localStorage.getItem("Messenger");
     if (storedItem) {
-      setItem(JSON.parse(storedItem)); // Parse the stored string to its original data type (e.g., object, array)
+      setItem(JSON.parse(storedItem)); // Parse the stored 
     }
   });
 

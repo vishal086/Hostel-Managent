@@ -2,10 +2,10 @@ const express = require('express')
 const cors = require('cors')
 const bodyParser = require('body-parser')
 const { connectDB } = require('./config/connection')
-const { router } = require('./routes')
-const app = express()
-
-app.use(express.json())
+const { router } = require('./routes') 
+const app = express() 
+  
+app.use(express.json()) 
 const corsOptions = {
     origin: 'http://localhost:5173',  // The frontend URL
     methods: 'GET,POST,PUT,DELETE',  // Allowed methods
